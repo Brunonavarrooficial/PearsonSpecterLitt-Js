@@ -121,8 +121,9 @@ i {
 .text-image-section {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
 }
+
 
 .text-container {
     flex: 2 1 0;
@@ -743,6 +744,7 @@ i {
     }
 
     .text-container {
+        flex-direction: column;
         text-align: center;
     }
 
