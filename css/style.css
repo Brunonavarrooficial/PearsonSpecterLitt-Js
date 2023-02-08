@@ -534,6 +534,54 @@ i {
     right: 0;
 }
 
+@media (max-width: 280px) {
+    #brand {
+        padding: 0.4rem;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .bi-people {
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+
+
+    #about-text {
+        max-width: 100%;
+        gap: 3rem;
+        padding: 1rem 3rem;
+    }
+
+    .service {
+        max-width: 100%;
+    }
+
+    .service h4 {
+        font-size: 1rem;
+    }
+
+
+    .contact-mediaquery p {
+        font-size: 0.5rem;
+    }
+
+    .networks {
+        margin-top: 2rem;
+        display: flex;
+        gap: 3rem;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (min-width: 281px) and (max-width: 450px) {
+    #brand {
+        padding: 1.3rem;
+    }
+}
+
 
 @media (max-width: 450px) {
     body {
@@ -550,119 +598,207 @@ i {
     }
 
     #menu,
-    #close-menu{
+    #close-menu {
         display: block;
     }
 
-    .banner{
+    .banner {
         max-width: 100%;
-        padding: 4rem 2rem;        
+        padding: 4rem 2rem;
     }
 
-    .banner h2{
+    .banner h2 {
         font-size: 3rem;
     }
 
-    .banner p{
+    .banner p {
         font-size: 1rem;
     }
 
-    .btn{
+    .btn {
         align-self: initial;
     }
 
-    .image-container{
+    .image-container {
         flex: 1 1 100%;
     }
 
-    #other-services{
+    #other-services {
         flex-wrap: wrap;
     }
 
-    #about{
-        gap: 0;        
+    #about {
+        gap: 0;
     }
 
     #about-text,
-    #about-data{
+    #about-data {
         flex: 1 1 100%;
     }
 
-    .about-description{
+    .about-description {
         gap: 1rem;
     }
 
-    .about-description i{
+    .about-description i {
         padding: 0;
         min-width: 40px;
     }
 
-    #about #about-data .data{
+    #about #about-data .data {
         width: 100%;
         border: none;
         border-bottom: 1px solid var(--secondary-text-color);
     }
 
-    .text-container{
+    .text-container {
         text-align: center;
         padding: 2rem;
     }
 
-    #team{
-        margin-top: 2rem;        
+    #team {
+        margin-top: 2rem;
     }
 
-    #team h2{
-        font-size: 2.5rem;
+    #team h2 {
+        font-size: 1.5rem;
     }
 
-    .employees{
+    .employees {
         flex-wrap: wrap;
     }
 
-    #contact{
-        padding-bottom: 0;        
+    #contact {
+        padding-bottom: 0;
     }
 
-    #contact-information{
+    #contact-information {
         padding: 7rem 1rem;
     }
 
-    #contact-information .form-control{
-        flex-direction: column;        
+    #contact-information .form-control {
+        flex-direction: column;
     }
 
-    #contact-information .btn{
+    #contact-information .btn {
         align-self: auto;
     }
 
-    #footer{
-        flex-wrap: wrap;        
+    #footer {
+        flex-wrap: wrap;
     }
 
-    #footer i{
+    #footer i {
         font-size: 2rem;
         padding: 1rem;
     }
 
-    .footer-brand{
+    .footer-brand {
         text-align: center;
     }
 
-    .networks{
+    .networks {
         margin-bottom: 3rem;
     }
 
-    .links-container{
+    .links-container {
         margin-bottom: 1rem;
     }
 
-    .links-container h4{
+    .links-container h4 {
         margin-bottom: 1.5rem;
     }
 
     .contact-info,
-    .links-container{
+    .links-container {
         width: 100%;
+    }
+}
+
+@media (min-width: 451px) and (max-width:850px) {
+    #navbar {
+        gap: 1rem;
+        margin-right: 1.8rem;
+    }
+
+    #brand {
+        padding: 0.7rem;
+        margin-right: 10px;
+    }
+
+    .banner .square {
+        height: 100px;
+    }
+
+    .banner {
+        max-width: 70%;
+    }
+
+    .banner h2 {
+        font-size: 2rem;
+    }
+
+    .banner p {
+        margin-top: 50px;
+    }
+
+    .text-container {
+        text-align: center;
+    }
+
+    .text-image-section .btn {
+        align-self: center;
+    }
+
+    .section-subtitle {
+        text-align: center;
+        margin: 20px 75px;
+    }
+
+    #other-services {
+        flex-wrap: wrap;
+    }
+
+    #team h2 {
+        font-size: 1.8rem;
+    }
+
+    #team .square {
+        width: 75px;
+        height: 50px;
+    }
+
+    .phone-number {
+        gap: 0.2rem;
+    }
+
+    .phone-number i {
+        font-size: 2px;
+    }
+
+    .phone-number p {
+        font-size: 0.5rem;
+    }
+
+    #footer {
+        padding: 1rem 1rem 5rem;
+    }
+
+    .footer-brand {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 851px) and (max-width:950px) {
+    .section-subtitle {
+        text-align: center;
+        margin: 20px 75px;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 2000px) {
+    header .active p {
+        margin-top: 70px;
+        font-size: 2rem;
     }
 }
